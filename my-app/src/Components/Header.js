@@ -1,13 +1,14 @@
 import React from "react";
 import menu from '../images/menu.png';
 import profile from '../images/profile.png';
+import Link, { Redirect } from 'react-router-dom';
 
 function header() {
     function menuBtnClick(){
       alert("Menu Button Clicked");
     }
     function profileBtnClick(){
-      alert("Profile Button Clicked");
+      window.location.href="/Profile";
     }
 
     return(
