@@ -1,8 +1,9 @@
 import location from '../images/location.png';
 import mic from '../images/mic.png';
-import Item from '../Components/Item.js';
 import HeaderArea from '../Components/Header';
 import FooterArea from '../Components/Footer.js';
+import ItemSlide from '../Components/Slider.js';
+import PopularLocality from '../Components/PopularLocality';
 
 export default function home(){
     return(
@@ -51,9 +52,7 @@ export default function home(){
             <h2 id = "Title">Projects in High Demand</h2>
           </div>
           <div class = "SlideBox">
-            <Item/>
-            <Item/>   
-            <Item/>        
+            <ItemSlide/>
           </div>
           
         </div>
@@ -63,7 +62,7 @@ export default function home(){
             <h2 id = "Title">Offers for you</h2>
           </div>
           <div class = "SlideBox">
-            
+            <ItemSlide/>
           </div>
           
         </div>
@@ -73,17 +72,17 @@ export default function home(){
             <h2 id = "Title">HouseDekho Exclusive</h2>
           </div>
           <div class = "SlideBox">
-          
+            <ItemSlide/>
           </div>
           
         </div>
 
-        <div class = "HighDemand">
+        <div class = "LocalityDiv">
           <div class = "TitleDiv">
             <h2 id = "Title">Popular Localities</h2>
           </div>
           <div class = "SlideBox">
-          
+            <PopularLocality/>
           </div>
           
         </div>

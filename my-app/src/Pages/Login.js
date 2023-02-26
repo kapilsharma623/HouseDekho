@@ -2,10 +2,10 @@ import {Link, Redirect} from 'react-router-dom';
 
 export default function login(){
     function validateData(){
-        var userName = document.getElementById("userName");
-        var userPassword = document.getElementById("userPassword");
-        var url = "/Home?userName="+userName+",userPassword="+userPassword;
-        window.location.href = url;
+        // var userName = document.getElementById("userName");
+        // var userPassword = document.getElementById("userPassword");
+        // var url = "/Home?userName="+userName+",userPassword="+userPassword;
+        window.location.href = "/Home";
     }
 
     return(

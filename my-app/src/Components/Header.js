@@ -1,6 +1,7 @@
 import React from "react";
 import menu from '../images/menu.png';
 import profile from '../images/profile.png';
+import more from '../images/expand.png';
 import Link, { Redirect } from 'react-router-dom';
 
 function header() {
@@ -21,6 +22,7 @@ function header() {
             </div>
             <div className="Profile">
               <img src={profile} alt="profile button" onClick={profileBtnClick}/>
+              <img src={more} alt="More" id="moreBtn"/>
             </div>
         </div>
     )
